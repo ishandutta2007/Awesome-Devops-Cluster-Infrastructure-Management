@@ -1,49 +1,59 @@
-# Awesome-Devops-Cluster-Infrastructure-Management
+<div align="center">
 
-markdown
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+<a href="https://github.com/ishandutta2007/Awesome-Devops-Cluster-Infrastructure-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Devops-Cluster-Infrastructure-Management?style=social" alt="GitHub Stars"/></a>
+<a href="https://github.com/ishandutta2007/Awesome-Devops-Cluster-Infrastructure-Management/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Devops-Cluster-Infrastructure-Management?style=social" alt="GitHub Forks"/></a>
+<a href="https://github.com/ishandutta2007/Awesome-Devops-Cluster-Infrastructure-Management/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Devops-Cluster-Infrastructure-Management?color=green&style=flat-square" alt="Issues"/></a>
+<a href="https://github.com/ishandutta2007/Awesome-Devops-Cluster-Infrastructure-Management/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Devops-Cluster-Infrastructure-Management?color=blue&style=flat-square" alt="License"/></a>
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
-## Top DevOps & Cluster Infrastructure Management Ecosystem
+<br/><br/>
 
+[![Awesome DevOps & Cluster Infrastructure Management Banner](assets/banner.svg)](https://github.com/ishandutta2007/Awesome-Devops-Cluster-Infrastructure-Management)
 
+# 🚀 Awesome DevOps & Cluster Infrastructure Management
 
-**Curated List of SaaS/Hosted Platforms & Open-Source GitHub Projects**  
+**A curated, production-tested showcase of SaaS/hosted platforms, fleet orchestrators, and open-source GitHub projects for modern DevOps, Site Reliability Engineers (SREs), and platform architects.**
 
-*Focused on Multi-Cluster Kubernetes Management, Bare-Metal & Hybrid Cloud Orchestration, Immutable Cluster OSs, Infrastructure-as-Code & Cluster Lifecycle Automation*  
+*Master Multi-Cluster Kubernetes (K8s), Bare-Metal & Hybrid Cloud Provisioning, Immutable Operating Systems, GitOps Continuous Delivery, and Infrastructure-as-Code (IaC).*
 
-**Last updated: November 2026**
+---
 
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Devops-Cluster-Infrastructure-Management/pulls)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Devops-Cluster-Infrastructure-Management/graphs/commit-activity)
+[![DevOps Infrastructure](https://img.shields.io/badge/DevOps-Multi--Cluster%20Fleet-blue?style=flat-square&logo=kubernetes&logoColor=white)](https://kubernetes.io)
+[![Cloud Native](https://img.shields.io/badge/Cloud%20Native-CNCF%20Ecosystem-blueviolet?style=flat-square&logo=cncf&logoColor=white)](https://cncf.io)
 
+</div>
 
-This repository tracks notable **SaaS/hosted platforms** and **open-source projects** for **DevOps & Cluster Infrastructure Management**. These tools provision, upgrade, federate, monitor, and govern multi-cluster Kubernetes environments, bare-metal hypervisors, edge nodes, and hybrid cloud infrastructure across cloud providers and on-premise datacenters.
+---
 
+## 📑 Table of Contents
 
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS & Hosted Commercial Platforms](#-saas--hosted-commercial-platforms)
+- [💻 Open-Source Infrastructure Projects (Ranked by Stars)](#-open-source-infrastructure-projects-ranked-by-stars)
+- [🛠️ Recommended Production Architectural Stacks](#️-recommended-production-architectural-stacks)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [📈 Star History](#-star-history)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⚠️ Disclaimer](#️-disclaimer)
 
-**Examples** include Portainer, Rancher, Red Hat OpenShift, VMware Tanzu, Google Anthos (Google Distributed Cloud), AWS EKS, Azure Arc, Mirantis, Spectro Cloud, Platform9, and herdrdev/herdr (the category leaders and popular runtimes). 
+---
 
+## 🌐 Sector Overview & Market Dynamics
 
+The cloud-native cluster and Kubernetes infrastructure management market is estimated at **$2.6B–$3.1B in 2025–2026**, expanding rapidly at an estimated **17%–24% CAGR** toward **$6B+ by 2030** driven by multi-cloud fleet governance, enterprise platform engineering, and AI/GPU workload orchestration. 
 
-**Open-source emphasis**: This section is heavily expanded with every major active project for multi-cluster Kubernetes & infrastructure management (`Rancher`, `Portainer CE`, `herdrdev/herdr`, `KubeSphere`, `Cluster API`, `Kubespray`), immutable & lightweight Kubernetes distributions (`Talos Linux`, `k3s`, `RKE2`), and bare-metal virtualization & declarative IaC (`Proxmox VE`, `Harvester`, `OpenTofu`, `Crossplane`, `k9s`) — ideal for SREs, platform engineers, DevOps architects, and bare-metal homelab operators.
+The sector exhibits **moderate market concentration**: 
+- **Hyperscalers & Core Runtimes:** AWS (EKS), Microsoft (Azure Arc / AKS), Google (Distributed Cloud / GKE), and IBM/Red Hat (OpenShift) heavily dominate primary enterprise cloud infrastructure spend.
+- **Independent Fleet & Management Layer:** Concurrently, a **moderately fragmented** ecosystem of specialized independent platforms (SUSE/Rancher, Broadcom Tanzu, Mirantis, Spectro Cloud, Platform9, Portainer) thrives because modern enterprises actively deploy independent multi-cluster management and GitOps layers across hybrid on-premise datacenters, bare-metal servers, and edge environments to circumvent single-cloud vendor lock-in.
 
+---
 
+## 🏢 SaaS & Hosted Commercial Platforms
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Support & Share](#support--share)
-- [Disclaimer](#disclaimer)
-
-## Sector Overview & Market Dynamics
-
-The cloud-native cluster and Kubernetes infrastructure management market is estimated at **$2.6B–$3.1B in 2025–2026**, expanding rapidly at an estimated **17%–24% CAGR** toward $6B+ by 2030 driven by multi-cloud fleet governance, enterprise platform engineering, and AI/GPU workload orchestration. The sector exhibits **moderate market concentration**: hyperscalers (AWS, Microsoft, Google) and core enterprise runtime providers (Red Hat OpenShift) heavily dominate primary cloud infrastructure spend, while a **moderately fragmented** ecosystem of independent platforms (SUSE/Rancher, Broadcom Tanzu, Mirantis, Spectro Cloud, Platform9, Portainer) thrives as enterprises actively deploy multi-cluster management layers to avoid single-cloud vendor lock-in.
-
-## SaaS/Hosted Platforms
+> *Commercial hosted control planes, multi-cluster fleet management consoles, and hybrid cloud orchestrators sorted in descending order by company valuation/revenue.*
 
 | Platform | Parent Company / Backer | Market Size / Valuation / Revenue | Description | Specific Pricing | Free Tier / Trial Limit |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -58,146 +68,143 @@ The cloud-native cluster and Kubernetes infrastructure management market is esti
 | **[Platform9](https://platform9.com)** | Celesta Capital | Estimated Valuation: ~$100M–$200M / Total Funding: $100M / Revenue: ~$20M–$35M | SaaS-managed hybrid cloud and Kubernetes control plane delivering automated upgrades, 24/7 SLA monitoring, and VMware-to-KVM migration. | Growth tier starts at ~$160/node/year; Private Cloud Director licensed on a per-core/year subscription model. | Free Forever "Freedom" tier for up to 20 nodes / 800 vCPUs; Private Cloud Director Community Edition is free with no time limit. |
 | **[Portainer Business Edition (BE)](https://portainer.io)** | Portainer.io | Valuation: ~$40M–$60M / Total Funding: $13.4M / ARR: ~$4.7M | Commercial multi-cluster Kubernetes, Docker, and edge-device management UI featuring enterprise RBAC and GitOps automation. | Starter tier starts at $149/month (or $1,495/year for up to 10 nodes; additional nodes ~$150/node/year). | "3 Nodes Free" license tier forever (full Business Edition features including RBAC & GitOps up to 3 environments/nodes). |
 
-## Open-Source GitHub Projects
+---
 
+## 💻 Open-Source Infrastructure Projects (Ranked by Stars)
 
+> *Every repository includes an official GitHub star badge linking directly to that project's stargazers page, sorted strictly in descending order of stars.*
 
-- **[herdrdev/herdr](https://github.com)**  
+1. **[herdrdev/herdr](https://github.com/herdrdev/herdr)** [![GitHub stars](https://img.shields.io/github/stars/herdrdev/herdr?style=social&color=white)](https://github.com/herdrdev/herdr/stargazers)  
+   Open-source cluster and infrastructure management utility engineered for high-throughput node orchestration, fleet coordination, and developer-friendly modern cloud operations workflows.
 
-  Open-source cluster and infrastructure management utility engineered for streamlined node orchestration, fleet coordination, and modern DevOps workflows.
+2. **[Portainer CE (`portainer/portainer`)](https://github.com/portainer/portainer)** [![GitHub stars](https://img.shields.io/github/stars/portainer/portainer?style=social&color=white)](https://github.com/portainer/portainer/stargazers)  
+   Popular open-source container and cluster management UI simplifying Kubernetes, Docker Swarm, and edge-node administration with intuitive YAML deployment, container consoles, and RBAC governance.
 
+3. **[k9s (`derailed/k9s`)](https://github.com/derailed/k9s)** [![GitHub stars](https://img.shields.io/github/stars/derailed/k9s?style=social&color=white)](https://github.com/derailed/k9s/stargazers)  
+   High-speed, terminal-based curses UI providing real-time cluster monitoring, pod shell debugging, log tailing, resource utilization telemetry, and RBAC inspection for Kubernetes operators.
 
+4. **[K3s (`k3s-io/k3s`)](https://github.com/k3s-io/k3s)** [![GitHub stars](https://img.shields.io/github/stars/k3s-io/k3s?style=social&color=white)](https://github.com/k3s-io/k3s/stargazers)  
+   CNCF-certified lightweight Kubernetes distribution packaged as a single `<100MB` binary, optimized for edge nodes, IoT devices, bare-metal homelabs, CI test runners, and ARM64 clusters.
 
-- **[Rancher (`rancher/rancher`)](https://github.com)**  
+5. **[OpenTofu (`opentofu/opentofu`)](https://github.com/opentofu/opentofu)** [![GitHub stars](https://img.shields.io/github/stars/opentofu/opentofu?style=social&color=white)](https://github.com/opentofu/opentofu/stargazers)  
+   Community-driven, open-source (MPL-2.0) Infrastructure-as-Code tool backed by the Linux Foundation, providing declarative cloud and bare-metal server provisioning with 100% Terraform workflow parity.
 
-  Flagship open-source multi-cluster Kubernetes management platform enabling DevOps teams to import, provision, secure, and operate any CNCF-certified cluster from a unified web UI and API.
+6. **[Rancher (`rancher/rancher`)](https://github.com/rancher/rancher)** [![GitHub stars](https://img.shields.io/github/stars/rancher/rancher?style=social&color=white)](https://github.com/rancher/rancher/stargazers)  
+   Flagship open-source multi-cluster Kubernetes management suite enabling DevOps teams to import, provision, secure, and operate any CNCF cluster from a unified web interface and API.
 
+7. **[Cilium (`cilium/cilium`)](https://github.com/cilium/cilium)** [![GitHub stars](https://img.shields.io/github/stars/cilium/cilium?style=social&color=white)](https://github.com/cilium/cilium/stargazers)  
+   Open-source, eBPF-powered networking, observability, and security software providing high-performance Container Network Interface (CNI), transparent encryption, and multi-cluster mesh (`Cluster Mesh`).
 
+8. **[Argo CD (`argoproj/argo-cd`)](https://github.com/argoproj/argo-cd)** [![GitHub stars](https://img.shields.io/github/stars/argoproj/argo-cd?style=social&color=white)](https://github.com/argoproj/argo-cd/stargazers)  
+   CNCF-graduated declarative GitOps continuous delivery tool for Kubernetes, continuously auditing multi-cluster live states against Git repositories with automated drift synchronization.
 
-- **[Portainer Community Edition (`portainer/portainer`)](https://github.com)**  
+9. **[Kubespray (`kubernetes-sigs/kubespray`)](https://github.com/kubernetes-sigs/kubespray)** [![GitHub stars](https://img.shields.io/github/stars/kubernetes-sigs/kubespray?style=social&color=white)](https://github.com/kubernetes-sigs/kubespray/stargazers)  
+   Battle-tested Ansible playbook collection for orchestrating production-ready, highly available Kubernetes cluster deployments and OS lifecycle upgrades across bare metal and cloud VMs.
 
-  Popular self-hosted open-source management UI simplifying Kubernetes, Docker, and edge-node administration with intuitive YAML deployment, RBAC, and cluster inspection.
+10. **[KubeSphere (`kubesphere/kubesphere`)](https://github.com/kubesphere/kubesphere)** [![GitHub stars](https://img.shields.io/github/stars/kubesphere/kubesphere?style=social&color=white)](https://github.com/kubesphere/kubesphere/stargazers)  
+    Distributed enterprise container platform featuring a rich web console, multi-cluster federation, built-in DevOps CI/CD pipelines, microservice service mesh, and observability metrics.
 
+11. **[Crossplane (`crossplane/crossplane`)](https://github.com/crossplane/crossplane)** [![GitHub stars](https://img.shields.io/github/stars/crossplane/crossplane?style=social&color=white)](https://github.com/crossplane/crossplane/stargazers)  
+    Cloud-native control plane framework that turns any Kubernetes cluster into a custom developer platform, orchestrating cloud databases, VPCs, and server infrastructure via declarative Custom Resource Definitions (CRDs).
 
+12. **[Talos Linux (`siderolabs/talos`)](https://github.com/siderolabs/talos)** [![GitHub stars](https://img.shields.io/github/stars/siderolabs/talos?style=social&color=white)](https://github.com/siderolabs/talos/stargazers)  
+    Modern, immutable, minimal Linux operating system engineered from the ground up strictly for Kubernetes. Managed 100% via a declarative gRPC API (`talosctl`) with zero SSH, console shells, or package managers.
 
-- **[Talos Linux (`siderolabs/talos`)](https://github.com)**  
+13. **[vcluster (`loft-sh/vcluster`)](https://github.com/loft-sh/vcluster)** [![GitHub stars](https://img.shields.io/github/stars/loft-sh/vcluster?style=social&color=white)](https://github.com/loft-sh/vcluster/stargazers)  
+    Virtual Kubernetes clusters that run inside namespaces of any underlying host cluster, providing multi-tenant isolation, independent control planes, and rapid testing environments while reducing cloud infrastructure bills.
 
-  Modern, immutable, minimal open-source Linux operating system engineered specifically for Kubernetes—managed 100% via a declarative gRPC API (`talosctl`) with zero SSH or shell bloat.
+14. **[Velero (`vmware-tanzu/velero`)](https://github.com/vmware-tanzu/velero)** [![GitHub stars](https://img.shields.io/github/stars/vmware-tanzu/velero?style=social&color=white)](https://github.com/vmware-tanzu/velero/stargazers)  
+    CNCF-backed open-source backup, disaster recovery, snapshot automation, and workload migration tool for Kubernetes clusters and associated Persistent Volume Claims (PVCs).
 
+15. **[Flux CD (`fluxcd/flux2`)](https://github.com/fluxcd/flux2)** [![GitHub stars](https://img.shields.io/github/stars/fluxcd/flux2?style=social&color=white)](https://github.com/fluxcd/flux2/stargazers)  
+    CNCF-graduated family of composable GitOps operators keeping Kubernetes clusters in sync with configuration sources (Git, OCI artifacts, S3 buckets) and automating image updates.
 
+16. **[Karpenter (`aws/karpenter-provider-aws`)](https://github.com/aws/karpenter-provider-aws)** [![GitHub stars](https://img.shields.io/github/stars/aws/karpenter-provider-aws?style=social&color=white)](https://github.com/aws/karpenter-provider-aws/stargazers)  
+    High-velocity open-source Kubernetes node autoscaler and bin-packer that evaluates unschedulable pods and launches precisely right-sized EC2 compute capacity in seconds.
 
-- **[K3s (`k3s-io/k3s`) & RKE2 (`rancher/rke2`)](https://github.com)**  
+17. **[Headlamp (`kubernetes-sigs/headlamp`)](https://github.com/kubernetes-sigs/headlamp)** [![GitHub stars](https://img.shields.io/github/stars/kubernetes-sigs/headlamp?style=social&color=white)](https://github.com/kubernetes-sigs/headlamp/stargazers)  
+    Extensible, user-friendly open-source Kubernetes web dashboard engineered for multi-cluster operations, supporting in-cluster pod inspection, role-based access, and rich custom plugins.
 
-  CNCF-certified lightweight (`K3s`) and security-hardened (`RKE2`) open-source Kubernetes distributions packaged as single binaries for rapid edge, homelab, and production cluster deployment.
+18. **[k0s (`k0sproject/k0s`)](https://github.com/k0sproject/k0s)** [![GitHub stars](https://img.shields.io/github/stars/k0sproject/k0s?style=social&color=white)](https://github.com/k0sproject/k0s/stargazers)  
+    All-in-one, friction-free open-source Kubernetes distribution packaged into a single binary with zero external OS dependencies, tailored for bare metal, edge hardware, and homelabs.
 
+19. **[Karmada (`karmada-io/karmada`)](https://github.com/karmada-io/karmada)** [![GitHub stars](https://img.shields.io/github/stars/karmada-io/karmada?style=social&color=white)](https://github.com/karmada-io/karmada/stargazers)  
+    CNCF open-source multi-cloud and multi-cluster Kubernetes management system delivering cloud-native, centralized workload propagation, cross-cluster failover, and global scheduling without API modifications.
 
+20. **[Harvester (`harvester/harvester`)](https://github.com/harvester/harvester)** [![GitHub stars](https://img.shields.io/github/stars/harvester/harvester?style=social&color=white)](https://github.com/harvester/harvester/stargazers)  
+    Open-source Hyperconverged Infrastructure (HCI) built on Kubernetes, KubeVirt, and Longhorn, providing an open alternative to VMware vSphere for managing virtual machines and containers on bare metal.
 
-- **[Kubernetes Cluster API (`kubernetes-sigs/cluster-api`)](https://github.com)**  
+21. **[Kubernetes Cluster API (`kubernetes-sigs/cluster-api`)](https://github.com/kubernetes-sigs/cluster-api)** [![GitHub stars](https://img.shields.io/github/stars/kubernetes-sigs/cluster-api?style=social&color=white)](https://github.com/kubernetes-sigs/cluster-api/stargazers)  
+    Official Kubernetes Special Interest Group (SIG) project delivering declarative APIs and controllers to automate cluster creation, node scaling, and OS version upgrades across AWS, Azure, GCP, vSphere, and bare metal.
 
-  Official Kubernetes SIG open-source sub-project providing declarative, Kubernetes-style APIs and operators to automate cluster creation, scaling, and upgrades across AWS, Azure, GCP, vSphere, and bare metal.
+22. **[RKE2 (`rancher/rke2`)](https://github.com/rancher/rke2)** [![GitHub stars](https://img.shields.io/github/stars/rancher/rke2?style=social&color=white)](https://github.com/rancher/rke2/stargazers)  
+    FIPS 140-2 compliant, CIS-hardened open-source Kubernetes distribution combining the single-binary operational simplicity of K3s with enterprise security requirements.
 
+23. **[Submariner (`submariner-io/submariner`)](https://github.com/submariner-io/submariner)** [![GitHub stars](https://img.shields.io/github/stars/submariner-io/submariner?style=social&color=white)](https://github.com/submariner-io/submariner/stargazers)  
+    CNCF tool enabling direct, encrypted IPsec/WireGuard networking and cross-cluster service discovery (`Lighthouse`) across independent Kubernetes clusters.
 
+24. **[Open Cluster Management (`open-cluster-management-io/ocm`)](https://github.com/open-cluster-management-io/ocm)** [![GitHub stars](https://img.shields.io/github/stars/open-cluster-management-io/ocm?style=social&color=white)](https://github.com/open-cluster-management-io/ocm/stargazers)  
+    Community-driven modular architecture for orchestrating fleets of Kubernetes clusters, powering policy enforcement, application delivery, and hub-spoke cluster federation.
 
-- **[Kubespray (`kubernetes-sigs/kubespray`)](https://github.com)**  
+25. **[MAAS — Metal as a Service (`canonical/maas`)](https://github.com/canonical/maas)** [![GitHub stars](https://img.shields.io/github/stars/canonical/maas?style=social&color=white)](https://github.com/canonical/maas/stargazers)  
+    Datacenter automation platform transforming physical bare-metal servers into dynamic, API-driven cloud instances with automated PXE booting, network fabric configuration, and OS deployment.
 
-  Battle-tested open-source Ansible playbook suite for deploying and upgrading production-ready, highly available Kubernetes clusters on bare-metal Linux servers and cloud VMs.
+26. **[Tinkerbell (`tinkerbell/tinkerbell`)](https://github.com/tinkerbell/tinkerbell)** [![GitHub stars](https://img.shields.io/github/stars/tinkerbell/tinkerbell?style=social&color=white)](https://github.com/tinkerbell/tinkerbell/stargazers)  
+    CNCF bare-metal provisioning engine composed of microservices (Boots, Hegel, OSIE, Rufio, Tink) that automate operating system installation on physical servers via workflow pipelines.
 
+---
 
+## 🛠️ Recommended Production Architectural Stacks
 
-- **[KubeSphere (`kubesphere/kubesphere`)](https://github.com)**  
+* **Minimal Immutable Homelab / Bare Metal:** `Talos Linux` + `Cluster API` + `Cilium CNI` + `k9s`
+* **Enterprise Hybrid Cloud Orchestration:** `SUSE Rancher Prime` / `Red Hat OpenShift` + `Crossplane` + `Argo CD` + `Velero`
+* **High-Density Multi-Tenancy on Public Cloud:** `AWS EKS` / `Azure Arc` + `vcluster` + `Karpenter` + `Flux CD`
+* **Self-Hosted Hyperconverged Virtualization:** `Harvester HCI` or `Proxmox VE` + `K3s` + `Portainer CE` + `OpenTofu`
 
-  Distributed open-source container platform built on Kubernetes featuring a multi-tenant web console, multi-cluster federation, observability stack, and built-in DevOps pipelines.
+---
 
+## 🤝 How to Contribute
 
+Contributions are welcome! Help keep this ecosystem guide comprehensive, accurate, and up to date:
 
-- **[Harvester (`harvester/harvester`) & Proxmox VE (`proxmox`)](https://github.com)**  
+1. 🍴 **Fork the repository** to your GitHub account.
+2. 🌿 **Create a new branch** (`git checkout -b feature/new-tool-entry`).
+3. 📝 **Add or edit entries** in `README.md` maintaining consistent formatting:
+   - Provide the project name, official URL, concise description, and star badge (`style=social&color=white`).
+   - If adding a SaaS product, include exact pricing, company valuation/revenue, and specific free tier limits.
+4. 🚀 **Submit a Pull Request (PR)** with a clear title and context detailing your addition.
 
-  Leading open-source Hyperconverged Infrastructure (HCI) and bare-metal virtualization platforms (`Harvester` built on Kubernetes/KubeVirt; `Proxmox VE` on KVM/LXC) for managing VM and container clusters.
+---
 
+## 📈 Star History
 
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Devops-Cluster-Infrastructure-Management&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Devops-Cluster-Infrastructure-Management&type=date&legend=top-left)
 
-- **[OpenTofu (`opentofu/opentofu`) & Crossplane (`crossplane/crossplane`)](https://github.com)**  
+---
 
-  Foundational open-source Infrastructure-as-Code CLI (`OpenTofu`, MPL-2.0 Terraform fork) and Kubernetes-native cloud control plane (`Crossplane`) for provisioning cluster infrastructure declaratively.
+## 💖 Support & Sponsorship
 
+Thank you for exploring and supporting **Awesome DevOps & Cluster Infrastructure Management**! If this curated repository saved you time, enhanced your cluster architecture, or helped your engineering organization build better cloud infrastructure, consider showing your support:
 
+* ⭐ **Star this repository** to help other DevOps engineers and platform architects find it.
+* 🍴 **Fork & Share** with your colleagues, DevOps communities, and on tech networks.
+* ☕ **Sponsor & Buy me a coffee** on the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007) — every bit of sponsorship supports continuous research, curation, and open-source maintenance!
 
-- **[k9s (`derailed/k9s`) & Headlamp (`kubernetes-sigs/headlamp`)](https://github.com)**  
+[![GitHub Sponsors](https://img.shields.io/badge/Sponsor-%E2%99%A5-pink?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/ishandutta2007)
 
-  Essential open-source terminal UI (`k9s`) and extensible CNCF web dashboard (`Headlamp`) for real-time cluster navigation, pod/node debugging, and RBAC-aware resource management.
+---
 
+## ⚠️ Disclaimer
 
+- This is a community-curated educational resource; inclusion of tools does not imply official commercial endorsement.
+- Multi-cluster management control planes and declarative IaC orchestrators (e.g., Rancher, Portainer, Talos Linux, OpenTofu, Cluster API) exercise privileged access over cloud IAM and cluster-admin service accounts. Always enforce strict Single Sign-On (SSO/OIDC), Least Privilege RBAC, multi-factor authentication, network isolation, and regular automated etcd/Velero backup snapshots prior to executing production cluster upgrades or lifecycle changes.
+- Product names, trademarks, and logos belong to their respective registered owners.
 
-### Additional Strong Open-Source Options
+---
 
+<div align="center">
 
+Crafted with care for SREs, platform engineers, cloud architects, and open-source contributors.  
+Let's build more declarative, automated, and resilient cluster infrastructure!
 
-- **[Karpenter (`kubernetes-sigs/karpenter`)](https://github.com)** for high-performance open-source Kubernetes node autoscaling and bin-packing that provisions right-sized compute instances in seconds.
-
-- **[Argo CD (`argoproj/argo-cd`)](https://github.com)** and **[Flux CD (`fluxcd/flux2`)](https://github.com)** for CNCF-graduated GitOps continuous delivery engines keeping multi-cluster infrastructure state synchronized with Git.
-
-- **[Cilium (`cilium/cilium`)](https://github.com)** for an eBPF-based open-source CNI networking, observability (`Hubble`), and multi-cluster mesh (`Cluster Mesh`) layer.
-
-- **[Tinkerbell (`tinkerbell/tinkerbell`)](https://github.com)** and **[MAAS — Metal as a Service (`canonical/maas`)](https://github.com)** for automated PXE bare-metal server provisioning and OS imaging at datacenter scale.
-
-- **[Velero (`vmware-tanzu/velero`)](https://github.com)** for open-source disaster recovery, scheduled backups, and cross-cluster migration of Kubernetes resources and persistent volumes.
-
-
-
-**Frameworks for building custom systems**: Combine **Talos Linux + Cluster API** or **K3s + OpenTofu** for reproducible bare-metal and cloud cluster provisioning, **Rancher** or **Headlamp + k9s** for multi-cluster day-2 visibility, and **Argo CD + Cilium** for GitOps delivery and eBPF networking.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS/hosted or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Support & Share
-
-
-
-If you find this curated list helpful, consider supporting the project:
-
-
-
-- ⭐ **Star this repository** to help others discover it.
-
-- 🍴 **Fork & Share** it with your team, friends, or community on X/Twitter, LinkedIn, and Reddit.
-
-- ☕ **Buy me a coffee / Sponsor** my open-source work on [GitHub Sponsors](https://github.com) — featuring tiers for profile badges, README shoutouts, logo placements, and prioritized bug fixes/features!
-
-
-
-[![Sponsor @ishandutta2007](https://shields.io)](https://github.com)
-
-
-
-## Disclaimer
-
-
-
-Use code with caution.
-
-• This is a community-curated list — not exhaustive and not an endorsement.
-
-• Cluster management control planes (Rancher, Portainer, Talos, OpenTofu) hold cluster-admin and cloud-IAM privileges; always enforce OIDC/SSO authentication, MFA, network-level VPN/Zero-Trust isolation, and encrypted etcd backups.
-
-• Always test Kubernetes version upgrades, CNI migrations, and Cluster API machine rollouts in a staging cluster with automated Velero snapshots before applying changes to production workloads.
-
-Made for SREs, platform engineers, DevOps architects, homelab operators, and open-source contributors.
-
-Let's make DevOps and cluster infrastructure management more open, declarative, and resilient.
+</div>
